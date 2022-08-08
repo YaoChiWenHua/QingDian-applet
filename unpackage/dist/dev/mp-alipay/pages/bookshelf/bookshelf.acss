@@ -1,0 +1,186 @@
+.nav-tab.data-v-ad45dbd2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 80rpx;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 9;
+}
+.nav-tab .tab-btn.data-v-ad45dbd2 {
+  width: 50%;
+  text-align: center;
+}
+.nav-tab .tab-btn text.data-v-ad45dbd2 {
+  padding-bottom: 20rpx;
+  font-size: 28rpx;
+  color: #666;
+}
+.nav-tab .tab-btn .active.data-v-ad45dbd2 {
+  border-bottom: 4rpx solid #e4393c;
+}
+.my-bookshelf.data-v-ad45dbd2 {
+  width: 100%;
+  margin-top: 60rpx;
+}
+.my-bookshelf .btn-fixed.data-v-ad45dbd2 {
+  width: 100%;
+  position: fixed;
+  top: 80rpx;
+  left: 0;
+  z-index: 9;
+  background-color: #fff;
+}
+.my-bookshelf .btn-fixed .edit-book.data-v-ad45dbd2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80rpx;
+  margin: 0 30rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #666;
+  border-bottom: 2rpx solid #EFEEEC;
+}
+.my-bookshelf .btn-fixed .edit-book .edit-btn text.data-v-ad45dbd2 {
+  color: #FF5052;
+}
+.book-list.data-v-ad45dbd2 {
+  padding: 0 30rpx;
+  margin-top: 201rpx;
+}
+.book-list .book-cont.data-v-ad45dbd2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20rpx;
+}
+.book-list .book-cont image.data-v-ad45dbd2 {
+  width: 102rpx;
+  height: 136rpx;
+  -webkit-box-shadow: 0 2rpx 6rpx rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2rpx 6rpx rgba(0, 0, 0, 0.3);
+  border-radius: 10rpx;
+}
+.book-list .book-cont .cont-right.data-v-ad45dbd2 {
+  width: 570rpx;
+  padding-bottom: 35rpx;
+  border-bottom: 2rpx solid #EFEEEC;
+  position: relative;
+}
+.book-list .book-cont .cont-right .right-text.data-v-ad45dbd2 {
+  width: 90%;
+  line-height: 1.8;
+}
+.book-list .book-cont .cont-right .right-text .text1.data-v-ad45dbd2 {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+}
+.book-list .book-cont .cont-right .right-text .text2.data-v-ad45dbd2 {
+  font-size: 24rpx;
+  color: #666;
+}
+.book-list .book-cont .cont-right .right-text .text3.data-v-ad45dbd2 {
+  font-size: 22rpx;
+  color: #999;
+}
+.book-list .book-cont .cont-right .abs-icon.data-v-ad45dbd2 {
+  position: absolute;
+  top: 45rpx;
+  right: 10rpx;
+}
+.book-list .book-cont .cont-right .abs-icon .icon-tiaozhuan1.data-v-ad45dbd2 {
+  font-size: 50rpx;
+  color: #666;
+}
+.no-bookshelf.data-v-ad45dbd2 {
+  width: 100%;
+  margin-top: 250rpx;
+  text-align: center;
+}
+.no-bookshelf image.data-v-ad45dbd2 {
+  width: 480rpx;
+  height: 571rpx;
+}
+.no-bookshelf button.data-v-ad45dbd2 {
+  width: 324rpx;
+  height: 91rpx;
+  line-height: 90rpx;
+  margin: 0 auto;
+  margin-top: 75rpx;
+  font-size: 34rpx;
+  border-radius: 50rpx;
+}
+.read-book.data-v-ad45dbd2 {
+  width: 100%;
+}
+.read-book .clear-box.data-v-ad45dbd2 {
+  width: 100%;
+  height: 156rpx;
+  padding: 20rpx 0;
+  background-color: #fff;
+  position: fixed;
+  top: 80rpx;
+  left: 0rpx;
+  z-index: 9;
+}
+.read-book .clear-box .clear-wrapper.data-v-ad45dbd2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 93%;
+  height: 156rpx;
+  margin: 0 auto;
+  padding: 20rpx 30rpx;
+  background-color: #F1EFF3;
+  border-radius: 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.read-book .clear-box .clear-wrapper view.data-v-ad45dbd2 {
+  width: 65%;
+  font-size: 22rpx;
+  color: #333;
+}
+.read-book .clear-box .clear-wrapper button.data-v-ad45dbd2 {
+  width: 146rpx;
+  height: 45rpx;
+  line-height: 40rpx;
+  color: #FF5052;
+  border-color: #FF5052;
+  border-radius: 30rpx;
+  font-size: 30rpx;
+}
+.read-book .read-wrapper.data-v-ad45dbd2 {
+  margin-top: 300rpx;
+}
+

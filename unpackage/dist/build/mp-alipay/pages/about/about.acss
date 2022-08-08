@@ -1,0 +1,10 @@
+.about.data-v-97a8f564 {
+  padding: 10rpx 30rpx;
+}
+.about view.data-v-97a8f564 {
+  line-height: 2;
+  text-indent: 2em;
+  font-size: 30rpx;
+  color: #333;
+}
+

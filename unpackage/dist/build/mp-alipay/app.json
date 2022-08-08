@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/bookshelf/bookshelf",
+    "pages/user/user",
+    "pages/book/book",
+    "pages/read/read",
+    "pages/rank/rank",
+    "pages/female/female",
+    "pages/male/male",
+    "pages/more-list/more-list",
+    "pages/search/search",
+    "pages/about/about",
+    "pages/server-center/server-center"
+  ],
+  "window": {},
+  "tabBar": {
+    "textColor": "#666",
+    "selectedColor": "#e4393c",
+    "backgroundColor": "#fff",
+    "items": [
+      {
+        "pagePath": "pages/bookshelf/bookshelf",
+        "name": "书架",
+        "icon": "static/icons/h_shujia.png",
+        "activeIcon": "static/icons/l_shujia.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "name": "书城",
+        "icon": "static/icons/h_home.png",
+        "activeIcon": "static/icons/l_home.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "name": "我的",
+        "icon": "static/icons/h_user.png",
+        "activeIcon": "static/icons/l_user.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,9 @@
+{
+  "description": "项目配置文件。",
+  "libVersion": "0.6.0",
+  "appid": "ks706502192349874754",
+  "projectname": "青点阅读",
+  "setting": {
+    "es6": true
+  }
+}

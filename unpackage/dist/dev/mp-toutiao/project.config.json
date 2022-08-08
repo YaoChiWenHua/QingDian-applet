@@ -1,0 +1,9 @@
+{
+  "setting": {
+    "es6": true,
+    "minified": true,
+    "postcss": true
+  },
+  "appid": "tte1d3976e7ef9a82f",
+  "projectname": "青点阅读"
+}

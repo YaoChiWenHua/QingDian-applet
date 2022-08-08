@@ -1,0 +1,214 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/otherindex",
+			"style": {
+				"navigationBarTitleText": "青点阅读"
+				// "backgroundColor": "#F6F7F8"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "青点阅读",
+				// "navigationBarBackgroundColor": "#FFFFFF",
+				"backgroundColor": "#F6F7F8"
+				// "enablePullDownRefresh": true
+				// "mp-toutiao": {
+				// 	"backgroundColor": "#F6F7F8"
+				// }
+			}
+		},
+		{
+			"path": "pages/bookshelf/bookshelf",
+			"style": {
+				"navigationBarTitleText": "书架"
+				// "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/sift/sift",
+			"style": {
+				"navigationBarTitleText": "精选"
+				// "enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor":"#FF5152",
+				"navigationBarTextStyle":"white"
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "书籍详情"
+			}
+		},
+		{
+			"path": "pages/read/read",
+			"style": {
+				"navigationBarTitleText": "阅读页面",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F5EEE9",
+				"backgroundColor": "#F5EEE9"
+			}
+		},
+		{
+			"path": "pages/read/otherread",
+			"style": {
+				"navigationBarTitleText": "阅读页面",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#F5EEE9",
+				"backgroundColor": "#F5EEE9"
+			}
+		},
+		{
+			"path": "pages/rank/rank",
+			"style": {
+				"navigationBarTitleText": "排行榜",
+				"backgroundColor": "#F6F7F8"
+			}
+		},
+		{
+			"path": "pages/rank/ranklist",
+			"style": {
+				"navigationBarTitleText": "排行榜"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+      "path" : "pages/recharge/recharge",
+      "style" : {
+				"navigationBarTitleText": "充值"
+			}
+    },
+		{
+      "path" : "pages/record/record",
+      "style" : {
+				"navigationBarTitleText": "消费记录"
+				// "navigationStyle": "custom"
+			}
+    },
+		{
+			"path" : "pages/gender/gender",
+			"style" : {
+				"navigationBarTitleText": "偏好设置"
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/catalog/catalog",
+      "style" : {
+				"navigationBarTitleText": "目录"
+			}
+    },
+		{
+			"path" : "pages/bookstore/bookstore",
+			"style" : {
+				"navigationBarTitleText": "书库"
+			}
+		},
+		{
+			"path" : "pages/phone/phone",
+      "style" : {
+				"navigationStyle": "default"
+			}
+    },
+		{
+			"path" : "pages/voucher/voucher",
+			"style" : {
+				"navigationBarTitleText": "我的代金券"
+			}
+    },
+		{
+			"path" : "pages/voucher/voucherlist",
+			"style" : {
+				"navigationBarTitleText": "我的代金券"
+			}
+		},
+		{
+      "path" : "pages/logout/logout",
+      "style" : {
+				"navigationBarTitleText": "注销账号"
+			}
+    },
+		{
+			"path" : "pages/agreement/agreement",
+			"style" : {
+				"navigationBarTitleText": "服务协议"
+			}
+		},
+    {
+    	"path" : "pages/payment/payment",
+    	"style" : {
+    		"navigationBarTitleText": "服务协议"
+    	}
+    },
+		{
+      "path" : "pages/policy/policy",
+      "style" : {
+				"navigationBarTitleText": "隐私政策"
+			}
+    },
+		{
+			"path" : "pages/readlist/readlist",
+			"style" : {
+				"navigationBarTitleText": "最近阅读"
+			}
+    },
+		{
+			"path" : "pages/collectlist/collectlist",
+			"style" : {
+				"navigationBarTitleText": "我的收藏"
+			}
+    }
+  ],
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"navigationBarTextStyle": "black"
+		// "navigationBarTitleText": "青桔免费小说",
+		// "backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	  "color": "#999999",
+	  "selectedColor": "#07c73b",
+	  "backgroundColor": "#fff",
+	  "position": "bottom",
+	  "borderStyle": "black",
+	  "list": [
+	    // {
+	    //   "pagePath": "pages/bookshelf/bookshelf",
+	    //   "text": "书架",
+	    //   "iconPath": "static/icons/h-shujia.png",
+	    //   "selectedIconPath": "static/icons/l-shujia.png"
+	    // },
+	    {
+	      "pagePath": "pages/index/otherindex",
+	      "text": "热门",
+	      "iconPath": "static/icons/h-home.png",
+	      "selectedIconPath": "static/icons/l-home.png"
+	    },
+			// {
+			//   "pagePath": "pages/sift/sift",
+			//   "text": "精选",
+			//   "iconPath": "static/icons/h-jingxuan.png",
+			//   "selectedIconPath": "static/icons/l-jingxuan.png"
+			// },
+	    {
+	      "pagePath": "pages/user/user",
+	      "text": "我的",
+	      "iconPath": "static/icons/h-user.png",
+	      "selectedIconPath": "static/icons/l-user.png"
+	    }
+	  ]
+	}
+}

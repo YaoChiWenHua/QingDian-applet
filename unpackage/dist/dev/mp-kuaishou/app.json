@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/otherindex",
+    "pages/index/index",
+    "pages/bookshelf/bookshelf",
+    "pages/sift/sift",
+    "pages/user/user",
+    "pages/detail/detail",
+    "pages/read/read",
+    "pages/read/otherread",
+    "pages/rank/rank",
+    "pages/rank/ranklist",
+    "pages/search/search",
+    "pages/recharge/recharge",
+    "pages/record/record",
+    "pages/gender/gender",
+    "pages/catalog/catalog",
+    "pages/bookstore/bookstore",
+    "pages/phone/phone",
+    "pages/voucher/voucher",
+    "pages/voucher/voucherlist",
+    "pages/logout/logout",
+    "pages/agreement/agreement",
+    "pages/payment/payment",
+    "pages/policy/policy",
+    "pages/readlist/readlist",
+    "pages/collectlist/collectlist"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#07c73b",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/otherindex",
+        "text": "热门",
+        "iconPath": "static/icons/h-home.png",
+        "selectedIconPath": "static/icons/l-home.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/icons/h-user.png",
+        "selectedIconPath": "static/icons/l-user.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

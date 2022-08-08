@@ -1,0 +1,1 @@
+<view class="rank-list data-v-68efdb38"><more-list vue-id="25dd2329-1" list="{{ranklist}}" loading-show="{{loadShow}}" class="data-v-68efdb38" bind:__l="__l"></more-list></view>

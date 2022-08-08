@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "精选",
+  "usingComponents": {
+    "more-list": "/components/morelist"
+  }
+}

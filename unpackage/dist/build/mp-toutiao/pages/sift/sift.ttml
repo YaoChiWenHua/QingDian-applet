@@ -1,0 +1,1 @@
+<view class="sift"><view class="sift-title">精选书籍</view><more-list vue-id="559b2a1f-1" list="{{siftlist}}" loadingShow="{{loadShow}}" bind:__l="__l"></more-list></view>
